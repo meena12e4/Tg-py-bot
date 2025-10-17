@@ -318,7 +318,7 @@ def check_vbv(card_number):
 
 # Telegram Bot Handlers
 async def start(update: Update, context: CallbackContext) -> None:
-    await update.message.reply_text('Welcome to the Ultimate CC Checker Bot!
+    await update.message.reply_text('Welcome to the Ultimate CC Checker Bot!'
 
 ✨ Features:
 • Check a single card using /chk <CC|MM|YY|CVV>
